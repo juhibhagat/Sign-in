@@ -20,6 +20,7 @@
             height: 400px;
             width: 300px;
             display: flex;
+            background-color: green;
         }
 
         .div-container {
@@ -80,10 +81,16 @@
        .logo1:hover{
         background-color: purple;
        }
+       .language{
+        border-radius: 2px solid pink;
+       }
+       .ronu{
+        background-color: bisque;
+       }
     </style>
 </head>
 
-<body>
+<body class="language">
     <div class="container">
         <div class="div-container">
             <div class="content-sign">Sign in</div>
@@ -93,15 +100,15 @@
                 <span class="bi bi-linkedin"></span>
             </div>
             <p class="user-content">or use your account</p>
-            <input type="email" placeholder="Email">
+            <input type="email" placeholder="Email" class="ronu">
             <br>
             <br>
-            <input type="password" placeholder="password">
+            <input type="password" placeholder="password" class="ronu">
             <button class="btn btn-primary mt-3 logo1">Sign up</button>
         </div>
 
 
-        <div class="div-container-1">
+        <div class="div-container-1 ms-2 b-2">
             <h1>Hello,Friend</h1>
             <div class="content">Enter your personal details are short journey with us</div>
             <button class="btn btn-outline-dark">SIGN UP</button>
